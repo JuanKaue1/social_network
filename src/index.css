@@ -177,7 +177,7 @@ label {
 
 }
 
-.edit_action {
+/* .edit_action {
   background-color: #82a8f2;
   width: 30px;
   height: 30px;
@@ -186,9 +186,9 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.bin_del_action {
+/* .bin_del_action {
   background-color: #82a8f2;
   width: 15px;
   border-radius: 10000px;
@@ -197,7 +197,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .btn_publish button {
   transition: .5s;
