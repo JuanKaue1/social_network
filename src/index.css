@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+button {
+  outline-color: #896a13;
+}
+
+code {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 20px;
+}
+
+li {
+  border: 1px solid #0000005c;
+  border-radius: 14px;
+  margin: 20px 0;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #7695ec;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  padding: 24px 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+body {
+  background-color: #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  width: 671px;
+  height: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+form {
+  border: 1px solid #0000005c;
+  border-radius: 14px;
+  margin: 20px 20px 0 20px;
+  padding: 17px 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0 20px 17px 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.container_titulo {
+  margin: 0;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-color: #7695ec;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.bin_del {
+  max-width: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.edit {
+  cursor: pointer;
+  max-width: 25px;
+  width: 100%;
+}
+
+label p {
+  margin: 0 0 7px 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: black;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #141414;
+}
+
+.titulo {
+  background-color: #7695ec;
+  border-radius: 12px;
+  color: #fff;
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
+}
+
+.title::placeholder {
+  color: #d7d7d7;
+  font-size: 0.8rem;
+}
+
+.title {
+  border: 1px solid #0000005c;
+  border-radius: 5px;
+  padding: 5px 7px;
+}
+
+.comentario::placeholder {
+  color: #d7d7d7;
+  font-size: 0.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.comentario {
+  border: 1px solid #0000005c;
+  padding: 3px 7px;
+  height: 15px;
+  resize: none;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom: 0;
+}
+
+.comentario1::placeholder {
+  color: #d7d7d7;
+  font-size: 0.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.comentario1 {
+  height: 30px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 1px solid #0000005c;
+  border-top: 0;
+  padding: 3px 7px;
+  resize: none;
+}
+
+.btn_publish button:hover {
+  background-color: #5e7de3;
+  transition: all .2s;
+
+}
+
+.edit_action {
+  background-color: #82a8f2;
+  width: 30px;
+  height: 30px;
+  border-radius: 10000px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bin_del_action {
+  background-color: #82a8f2;
+  width: 15px;
+  border-radius: 10000px;
+  height: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_publish button {
+  transition: .5s;
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 30px;
+  color: #fff;
+  background-color: #7695ec;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_publish {
+  display: flex;
+  flex-direction: row-reverse
+}
+
+aside div p:nth-child(1) {
+  color: #959595;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+aside div p:nth-child(2) {
+  color: #959595;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+aside div p {
+  margin: 0;
+  padding: 20px 0;
+}
+
+aside div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+}
+
+aside p {
+  margin: 0 0px 15px;
+}
+
+aside {
+  padding: 0 20px;
+}
+
+.autor {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
