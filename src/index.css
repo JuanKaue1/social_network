@@ -145,7 +145,7 @@ label {
 
 .comentario {
   border: 1px solid #0000005c;
-  padding: 3px 7px;
+  padding: 3px 7px 0;
   height: 15px;
   resize: none;
   border-top-right-radius: 8px;
@@ -160,14 +160,17 @@ label {
 }
 
 .comentario1 {
-  height: 30px;
+  max-height: 30px;
+  height: 100%;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   border: 1px solid #0000005c;
   border-top: 0;
-  padding: 3px 7px;
+  padding: 0 7px 3px;
   resize: none;
+  overflow: auto;
   word-wrap: break-word;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn_publish button:hover {
@@ -206,6 +209,8 @@ aside div p:nth-child(1) {
   color: #959595;
   font-weight: 700;
   font-size: 0.9rem;
+  word-wrap: break-word;
+
 }
 
 aside div p:nth-child(2) {
@@ -224,6 +229,7 @@ aside div {
   align-items: center;
   justify-content: space-between;
   height: 55px;
+  word-wrap: break-word;
 }
 
 aside p {
@@ -262,6 +268,12 @@ h3 {
 
 }
 
-.btn_bin_edit {
+.btn_bin_edit1 {
+  padding: 3px;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.btn_bin_edit2 {
+  padding: 0;
   background-color: rgba(255, 0, 0, 0);
 }
