@@ -136,12 +136,13 @@ const PostList = () => {
                         <div class="container_titulo">
                             <h3>{post.title}</h3>
                             <div class="btn">
-                                {/* <div class='bin_del_action'>
-                                </div>
-                                <div class='edit_action'>
-                                </div> */}
-                                    <img onClick={() => deletePost(index)} src={bin_del} alt="Bin" className='bin_del' />
-                                    <img onClick={() => editPost(index)} src={edit} alt="Edit" className='edit' />
+                                <button class="btn_bin_edit">
+                                    <img title='Delete' onClick={() => deletePost(index)} src={bin_del} alt="Bin" class='bin_del' />
+                                </button>
+                                <button class="btn_bin_edit">
+                                <img title='To edit' onClick={() => editPost(index)} src={edit} alt="Edit" class='edit' />
+                                </button>
+
                             </div>
                         </div>
                         <aside>
