@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Modal, Button } from 'react-bootstrap';
 import bin_del from './bin.png';
 import edit from './edit.png';
 
