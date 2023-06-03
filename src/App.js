@@ -1,5 +1,7 @@
 import React from 'react';
-import PostList from './PostList';
+// import PostList from './PostList';
+import PostList from './pages/PostList';
+
 
 const App = () => {
   return (
